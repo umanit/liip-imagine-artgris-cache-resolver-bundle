@@ -26,7 +26,7 @@ Use this cache resolver in your Liip Imagine configuration :
 
 ```yaml
 liip_imagine:
-    cache: artgris_resolver
+    cache: umanit_artgris_resolver
 ```
 
 and remove the default resolver configuration if it exists :

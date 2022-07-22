@@ -6,4 +6,4 @@ services:
             - "@router.request_context"
             - "%env(resolve:LIIP_IMAGINE_ROOT)%"
         tags:
-            - { name: "liip_imagine.cache.resolver", resolver: artgris_resolver }
+            - { name: "liip_imagine.cache.resolver", resolver: umanit_artgris_resolver }
