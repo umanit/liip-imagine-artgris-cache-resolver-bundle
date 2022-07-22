@@ -23,7 +23,7 @@
     "liip/imagine-bundle": "~2.3"
   },
   "suggest": {
-    "artgris/filemanager-bundle": "Allow your panel to be translated."
+    "artgris/filemanager-bundle": "Artgris file manager"
   },
   "minimum-stability": "stable",
   "autoload": {
