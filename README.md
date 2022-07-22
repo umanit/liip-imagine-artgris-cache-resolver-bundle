@@ -22,6 +22,12 @@ return [
 ];
 ```
 
+Make sure to define the `LIIP_IMAGINE_ROOT` env var in your Symfony .env
+```
+# Example : 
+LIIP_IMAGINE_ROOT=%kernel.project_dir%/public
+```
+
 Use this cache resolver in your Liip Imagine configuration :
 
 ```yaml
