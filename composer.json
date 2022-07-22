@@ -1,0 +1,34 @@
+{
+  "name": "umanit/liip-imagine-artgris-cache-resolver-bundle",
+  "description": "Liip Imagine cache resolver for artgris uploaded images",
+  "type": "symfony-bundle",
+  "keywords": [
+    "symfony",
+    "liip-imagine",
+    "artgris",
+    "cache",
+    "resolver"
+  ],
+  "homepage": "https://github.com/umanit/liip-imagine-artgris-cache-resolver-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "UmanIT",
+      "email": "contact@umanit.fr"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "symfony/framework-bundle": ">=4.4",
+    "liip/imagine-bundle": "~2.3"
+  },
+  "suggest": {
+    "artgris/filemanager-bundle": "Allow your panel to be translated."
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Umanit\\LiipImagineArtgrisCacheResolverBundle\\": ""
+    }
+  }
+}
